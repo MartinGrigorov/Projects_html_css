@@ -129,7 +129,10 @@ div, button, span, div, header, p, ul, li, a {
   top: 2320px;
 }
 
-
+.container-fluid{
+  margin: 0 auto;
+  
+}
 
 
 .img-portfolio {
