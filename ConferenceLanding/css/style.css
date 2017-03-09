@@ -1,0 +1,45 @@
+div,
+img,
+span,
+a,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    /*background: #3c3f49;*/
+}
+
+.img-conference {
+    width: 30%;
+}
+
+.nav li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.nav .bolder a {
+    font-weight: 600;
+    font-size: 1.6em;
+    color: #F68C1F;
+}
+
+.nav li a:hover {
+    background: none;
+    color: #fa692e;
+}
+
+#333333;
+.imgForHeader {
+    min-height: 1000px;
+    border: 5px solid black;
+    background-color: blue url(./img/header-bg.png) center center;
+    background-size: cover;
+    transform
+}
