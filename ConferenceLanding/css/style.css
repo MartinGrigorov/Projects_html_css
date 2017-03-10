@@ -1,9 +1,4 @@
-div,
-img,
-span,
-a,
-ul,
-li {
+div, img, span, a, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -18,6 +13,12 @@ body {
     width: 30%;
 }
 
+.collapse {
+    position: relative;
+    z-index: 10;
+    right: 0;
+}
+
 .nav li a {
     text-transform: uppercase;
     font-weight: bold;
@@ -25,7 +26,6 @@ body {
 }
 
 .nav .bolder a {
-    font-weight: 600;
     font-size: 1.6em;
     color: #F68C1F;
 }
@@ -36,10 +36,25 @@ body {
 }
 
 #333333;
-.imgForHeader {
-    min-height: 1000px;
-    border: 5px solid black;
-    background-color: blue url(./img/header-bg.png) center center;
+.header-for-image {
+    max-height: 100px;
+    width: auto;
+    /*background-color: blue url(./img/header-bg.png) center center;*/
     background-size: cover;
-    transform
+    position: relative;
+    z-index: 1;
+}
+
+.imageInHeader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    image: repeat;
+    filter: grayscale(100%);
+}
+
+.row{
+  position: absolute;
+  top: 400px;
+  left:200px;
 }
