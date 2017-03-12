@@ -1,358 +1,90 @@
-.navbar, .navbar-inverse {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70%;
-    margin: 15px 0 0 15%;
-    z-index: 10;
-    padding: 0px;
-    background-color: #C49C68;
-    border: none;
-}
-
-header.carousel .item, header.carousel .item.active, header.carousel .carousel-inner {
-    height: 100%;
-}
-
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-.navbar-collapse {
+/*div,
+img,
+span,
+a,
+ul,
+li {
+    margin: 0;
     padding: 0;
 }
 
-.navbar li {
-    height: 50px;
+body {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    /*background: #3c3f49;*/
 }
 
-.navbar .nav li a {
-    color: white;
-    line-height: 30px;
+.img-conference {
+    width: 30%;
 }
 
-.navbar .nav li a:hover {
-    background-color: rgba(0, 0, 0, 0.81);
-    color: white;
+.collapse {
+    position: relative;
+    z-index: 10;
+    right: 0;
 }
 
-.carouselWrapper {
-    width: 100%;
+.nav li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
 }
 
-.carousel-inner .item img {
-    width: 100%;
+.nav .bolder a {
+    font-size: 1.6em;
+    color: #F68C1F;
 }
 
-.main-text {
+.nav li a:hover {
+    background: none;
+    color: #fa692e;
+}
+
+.navbar-header {
+    z-index: 2;
+}
+
+/*#333333;*/
+
+/*.header-for-image {
+    max-height: 100px;
+    width: auto;
+    background-color: blue url(./img/header-bg.png) center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.imageInHeader {
     position: absolute;
-    top: 300px;
-    left: 50%;
+    top: 0%;
+    right: 0%;
+    image: repeat;
+    filter: grayscale(100%);
+}
+
+.row{
+  position: absolute;
+  top: 400px;
+  left:200px;
+}*/
+
+.relative {
+    position: relative;
     width: 50%;
-    margin-left: -25%;
-    color: #FFF;
+    height: 200px;
+    background: red;
 }
 
-.upperButton {
+.absolute {
     position: absolute;
-    z-index: 11;
-    top: 40%;
-    left: 40%;
+    width: 50%;
+    padding: 50px 0;
     text-align: center;
-}
-
-.intro-lead-in {
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-}
-
-.intro-heading {
-    font-size: 20px;
-    color: white;
-    font-weight: 300;
-    text-shadow: 0px 0px #ffffff;
-}
-
-.btn-carousel {
-    background-color: #C49C68;
-    padding: 15px;
-    font-size: 16px;
-    font-weight: bolder;
-    color: black;
-    margin-top: 10px;
-}
-
-.main-text .btn:hover {
-    background-color: rgba(0, 0, 0, 0.81);
-    color: white;
-}
-
-.row .col-lg-12 h1 {
-    text-align: center;
-    font-weight: bolder;
-    border-bottom: 30px;
-}
-
-.bold {
-    font-weight: bold;
-    display: inline-block;
-    margin-left: 20px;
-    font-size: 16px;
-}
-
-.icon {
-    width: 45px;
-    height: 45px;
-    background-color: black;
-    border-radius: 50%;
-    line-height: 45px;
-    font-size: 25px;
-    color: white;
-    display: inline-block;
-    text-align: center;
-}
-
-.image-title {
-    background: url(../images/steel-bg.jpg) no-repeat center center;
-    padding: 30px 0px;
-}
-
-.image-title h1 {
-    font-weight: bold;
-    color: black;
-    font-size: 2em;
-}
-
-.image-title h1 span {
-    color: #C49C68;
-    padding: 5px 0px 0px;
-    display: block;
-}
-
-.image-title-alt {
-    background: url(../images/background-choose-us.jpg) no-repeat center center;
-    background-size: cover;
-    padding: 40px 0px;
-}
-
-.image-title-alt .white {
-    color: white;
-}
-
-.flex-row {
-    display: flex;
-}
-
-.flex-col {
-    flex: 1;
-    margin: 0 20px;
-}
-
-.image-title-alt h1 {
-    margin-bottom: 30px;
-}
-
-.panel-border-content {
-    display: block;
-    border: 2px solid #C49C68;
-    padding: 20px 40px;
-    border-radius: 5px;
-    height: 100%;
-    color: white;
-}
-
-.flex-col:hover {
-    background-color: rgba(196, 156, 104, 0.73);
-}
-
-.image-title-alt-alt {
-    background: url(../images/consulting-woman.jpg) no-repeat top left;
-    position: relative;
-    height: 600px;
-    background-size: cover;
-}
-
-.white-alpha {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    height: 80%;
-    width: 33%;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    font-size: 1.3em;
-}
-
-.quote-ceo span {
-    font-size: 2em;
-    color: #C49C68;
-    line-height: 1.3em;
-}
-
-.partners {
-    margin: 30px 0px;
-}
-
-footer {
-    width: 100%;
-    background: #080820;
-}
-
-.container .footer-compound, a {
-    color: #F9EFF8;
-}
-
-.container .address-content:hover, .working-time:hover, a:hover {
-    color: #C49C68;
-    text-decoration: none;
-}
-
-.container .title-foter {
-    color: #C49C68;
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 20px
-}
-
-.container address span {
-    display: block;
-}
-
-.container .working-time span {
-    display: block;
-}
-
-.container .footer-icon {
-    font-size: 1.4em;
-    margin-right: 5px;
-}
-
-.container .mail, .telephone {
-    margin-top: 15px;
-}
-
-.container .mail, .telephone a {
-    text-decoration: none;
-}
-
-.container .icon-footer {
-    width: 45px;
-    height: 45px;
-    background-color: #83838F;
-    border-radius: 50%;
-    line-height: 45px;
-    font-size: 2em;
-    color: white;
-    display: inline-block;
-    text-align: center;
-    margin-right: 10px;
-}
-
-.container .icon-footer:hover {
-    background: #080820;
-}
-
-.container .social-media, .footer-compound, .insta-widget {
-    margin: 30px 0;
-}
-
-.container-video {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80%;
-}
-
-/* Responsive Styles */
-
-@media(max-width:767px) {
-    .navbar {
-        position: relative;
-        width: 100%;
-        margin: 0;
-        z-index: 10;
-        padding: 0px;
-        background-color: #C49C68;
-        border: none;
-    }
-    .main-text {
-        top: 10px;
-        width: 50%;
-        margin-left: -25%;
-    }
-}
-
-@media(max-width:991px) {
-    .image-title-alt-alt {
-        background: url(../images/consulting-woman.jpg) no-repeat top left;
-        background-size: cover;
-        position: relative;
-        height: auto;
-        padding: 20px;
-    }
-    .white-alpha {
-        position: relative;
-        top: 0;
-        left: 0;
-        height: auto;
-        background: rgba(255, 255, 255, 0.7);
-        width: 100%;
-    }
-}
-
-@media(max-width:1380px) {
-    .main-text {
-        top: 190px;
-    }
-}
-
-@media(max-width:1023px) {
-    .navbar {
-        position: relative;
-        width: 100%;
-        margin: 0;
-        z-index: 10;
-        padding: 0px;
-        background-color: #C49C68;
-        border: none;
-    }
-    .main-text {
-        top: 70px;
-        width: 80%;
-        margin-left: -40%;
-    }
-}
-
-@media (max-width:1200px) {
-    .flex-row {
-        position: relative;
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-    .flex-col {
-        margin-bottom: 20px;
-    }
-}
-
-@media(max-width:714px) {
-    .main-text {
-        display: none;
-    }
-}
-
-@@media (max-width: 1500px) {
-    .video {}
+    color: #fff;
+    top: 10%;
+    left: 10%;
+    background: blue;
 }
