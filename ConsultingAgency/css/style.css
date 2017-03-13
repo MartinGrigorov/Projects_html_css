@@ -252,8 +252,14 @@ footer {
     margin-right: 10px;
 }
 
-.container .icon-footer:hover {
+.container .icon-footer:hover{
     background: #080820;
+
+}
+
+.container .icon-footer:hover a{
+    color: #C49C68;
+
 }
 
 .container .social-media, .footer-compound, .insta-widget {
