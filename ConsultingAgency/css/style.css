@@ -7,7 +7,6 @@
     z-index: 10;
     padding: 0px;
     background-color: #C49C68;
-    border: none;
 }
 
 header.carousel .item, header.carousel .item.active, header.carousel .carousel-inner {
@@ -252,14 +251,13 @@ footer {
     margin-right: 10px;
 }
 
-.container .icon-footer:hover{
+.container .icon-footer:hover {
     background: #080820;
-
+    cursor: pointer;
 }
 
-.container .icon-footer:hover a{
+.container .icon-footer:hover a {
     color: #C49C68;
-
 }
 
 .container .social-media, .footer-compound, .insta-widget {
@@ -281,13 +279,12 @@ footer {
     height: 80%;
 }
 
-
 .back-to-top {
     cursor: pointer;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display:none;
+    display: none;
     width: 60px;
     height: 60px;
     background: #C49C68;
